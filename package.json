@@ -1,0 +1,20 @@
+{
+	"name": "watch-bot",
+	"version": "1.0.0",
+	"description": "Stumble watch bot altyapısı.",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node ./src/index.js"
+	},
+	"keywords": [],
+	"author": "wurathh",
+	"license": "ISC",
+	"dependencies": {
+		"@discordjs/voice": "^0.16.0",
+		"croxydb": "^0.0.7",
+		"discord.js": "^14.11.0"
+	},
+	"engines": {
+		"node": "16.x"
+	}
+}
